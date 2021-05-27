@@ -24,7 +24,7 @@ class Activities extends CI_Controller {
         $models = array(
             'admin/activities_model' => 'activities',
             'admin/activitiesCat_model' => 'activitiescat',
-        );
+        ); 
         $this->load->model($models);
 
         $this->load->library('file_processing');
