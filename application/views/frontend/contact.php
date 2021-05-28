@@ -60,20 +60,23 @@
                                     <address>
                                         <h4 style="font-weight: bold;">Office</h4>
                                         <p>Afra Fashion House</p>
-                                        <p style="font-weight: bold;">(Registration No- 13035466)</p>
                                         <p>Kodam Ali Madrasha Road, Dhaka, Dhaka Division, Bangladesh</p>
                                         <p><span class="fa fa-phone"></span>+8801842080688</p>
-                                        <p><span class="fa fa-envelope"></span>Email: info@dionescollection.com</p>
+                                        <p><span class="fa fa-envelope"></span>Email: rtrlokman@gmail.com</p>
                                     </address>
 
+                                </div>
+                            </div>
+                            <div class="col-sm-12" style="height: 50px;"></div>
+                            <div class="col-sm-12">
+                                <div class="aa-contact-map">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7304.414203636865!2d90.42359953660636!3d23.73999305510485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b84021a27441%3A0xeb353a7f06a7ad40!2sBashabo%20Balur%20Math!5e0!3m2!1sen!2sbd!4v1621836074721!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- contact map -->
-                    <div class="aa-contact-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7304.414203636865!2d90.42359953660636!3d23.73999305510485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b84021a27441%3A0xeb353a7f06a7ad40!2sBashabo%20Balur%20Math!5e0!3m2!1sen!2sbd!4v1621836074721!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
+                    
                 </div>
             </div>
         </div>

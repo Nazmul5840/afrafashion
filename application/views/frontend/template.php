@@ -85,30 +85,28 @@
                     <div class="col-md-12">
                         <div class="aa-header-top-area">
                             <!-- start header top left -->
-                            <div class="aa-header-top-left">
-
-                                <!-- / currency -->
-                                <!-- start cellphone -->
-                                <div class="cellphone hidden-xs">
-                                    <p><span class="fa fa-envelope"></span>rtrlokman@gmail.com</p>
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="aa-header-top-left">
+                                        <div class="cellphone ">
+                                            <p><span class="fa fa-envelope"></span>rtrlokman@gmail.com</p>
+                                        </div>
+                                        <div class="cellphone ">
+                                            <p>
+                                                <span class="fa fa-phone"></span>01781-163434
+                                            </p>
+                                        </div>
+                                        <!-- / cellphone -->
+                                    </div>
                                 </div>
-                                <div class="cellphone hidden-xs">
-                                    <p>
-                                        <span class="fa fa-phone"></span>01781-163434
-                                    </p>
-                                </div>
-                                <!-- / cellphone -->
                             </div>
                             <!-- / header top left -->
-                            <div class="aa-header-top-right">
-<!--                                <ul class="aa-head-top-nav-right">-->
-<!--                                    <li><a href="javascript:void(0);">My Account</a></li>-->
-<!--                                    <li class="hidden-xs"><a href="javascript:void(0);">Wishlist</a></li>-->
-<!--                                    <li class="hidden-xs"><a href="javascript:void(0);">My Cart</a></li>-->
-<!--                                    <li class="hidden-xs"><a href="javascript:void(0);">Checkout</a></li>-->
-<!--                                    <li><a href="" data-toggle="modal" data-target="#login-modal">Login</a></li>-->
-<!--                                </ul>-->
-                                <div id="google_translate_element"></div>
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="aa-header-top-right">
+                                        <div id="google_translate_element"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -131,7 +129,7 @@
 <!--                                    <p>Diones<strong>Collection</strong> <span style="font-family: ">Your Fashioning Life</span></p>-->
 <!--                                </a>-->
                                 <!-- img based logo -->
-                                 <a href="<?php echo base_url(); ?>"><img style="background: transparent; height:200px; width:200px;" src="<?php echo base_url("assets/frontend/img/afra_fashion.jpeg"); ?>" alt="logo img"></a>
+                                 <a href="<?php echo base_url(); ?>"><img style="background: transparent" src="<?php echo base_url("assets/frontend/img/afra_fashion.jpeg"); ?>" alt="logo img"></a>
                             </div>
                             <!-- / logo  -->
                             <!-- cart box -->
@@ -174,7 +172,7 @@
                             </div>
                             <!-- / cart box -->
                             <!-- search box -->
-                            <div class="aa-search-box" style="margin-top:50px;">
+                            <div class="aa-search-box">
                                 <form id="search_form" action="<?php echo base_url('main/products') ?>" method="GET">
                                     <input type="text" name="search" id="search" placeholder="Search here ex. 'man' ">
                                     <button  type="submit" name="submit"><span class="fa fa-search" ></span></button>
@@ -385,7 +383,7 @@
                                             <div class="aa-footer-widget">
                                                 <h4 style="color:white;">Location</h4>
                                                 <address>
-                                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7304.414203636865!2d90.42359953660636!3d23.73999305510485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b84021a27441%3A0xeb353a7f06a7ad40!2sBashabo%20Balur%20Math!5e0!3m2!1sen!2sbd!4v1621836074721!5m2!1sen!2sbd" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7304.414203636865!2d90.42359953660636!3d23.73999305510485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b84021a27441%3A0xeb353a7f06a7ad40!2sBashabo%20Balur%20Math!5e0!3m2!1sen!2sbd!4v1621836074721!5m2!1sen!2sbd" width="100%"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                                                 </address>
                                                 <div class="aa-footer-social">
 <!--                                                    <a href="https://www.facebook.com/dionescollection" target="_blank"><span class="fa fa-facebook"></span></a>-->
@@ -408,7 +406,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="aa-footer-bottom-area">
-                                <p>Copyright © <a href="http://www.dionescollection.com">dionescollection.com</a>| All Rights Reserved</p>
+                                <p>Copyright © <a href="http://www.steptechbd.com">Step Technology</a>| All Rights Reserved</p>
                                 <div class="aa-footer-payment">
                                     <!--<span class="fa fa-cc-mastercard"></span>
                                     <span class="fa fa-cc-visa"></span>

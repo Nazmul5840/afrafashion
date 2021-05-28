@@ -228,6 +228,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
+
 }
 #aa-header .aa-header-top .aa-header-top-area {
   display: inline;
@@ -366,7 +367,7 @@ img {
   float: left;
   display: inline;
   width: 100%;
-  padding: 20px 0;
+  margin-top:15px;
 }
 #aa-header .aa-header-bottom .aa-header-bottom-area {
   float: left;
@@ -375,11 +376,14 @@ img {
 }
 #aa-header .aa-header-bottom .aa-header-bottom-area .aa-logo {
   float: left;
-  margin-top: 4px;
+  margin-top: -15px;
 }
 #aa-header .aa-header-bottom .aa-header-bottom-area .aa-logo a {
   font-family: "Raleway", sans-serif;
   font-size: 28px;
+}
+#aa-header .aa-header-bottom .aa-header-bottom-area .aa-logo a img{
+  object-fit: contain;
 }
 #aa-header .aa-header-bottom .aa-header-bottom-area .aa-logo a:hover {  
   color: #333;
@@ -3212,7 +3216,7 @@ img {
   background-color: #FFF;
   display: inline;
   float: left;
-  padding: 50px 100px;
+  padding-top:  50px;
   text-align: center;
   width: 100%;
 }
@@ -3259,7 +3263,6 @@ img {
 #aa-contact .aa-contact-area .aa-contact-address .aa-contact-address-left .comments-form textarea {
   border-radius: 0;
   font-size: 16px;
-  height: 200px;
   padding: 10px;
   width: 70%;
 }
